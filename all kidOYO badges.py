@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 postLoginUrl = 'https://oyoclass.com/signin'
 
 pageNum = 1
-scrapingUrl = f'https://bmsteam.oyoclass.com/badges/all?page='
+scrapingUrl = 'https://bmsteam.oyoclass.com/badges/all?page='
 
 payload = {
     'username': input('Email:  '),
